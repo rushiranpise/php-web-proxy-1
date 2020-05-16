@@ -1,6 +1,6 @@
 <?php
 $lang["slogan"] = "Removing The Borders, Surf Safe Net.";
-$lang["wikipedia"] = "Wikipedia";
+$lang["wikipedia"] = "http://";
 $lang["back"] = "Back";
 $lang["go"] = "Go";
 $lang["home"] = "Home";
