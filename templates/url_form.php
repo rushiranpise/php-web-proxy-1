@@ -9,7 +9,7 @@ require(__DIR__ . "/../language.php");
 
     #top_form {
         position: fixed;
-        top: 0;
+        bottom: 0;
         left: 0;
         width: 100%;
 
@@ -23,7 +23,7 @@ require(__DIR__ . "/../language.php");
 
         border-bottom: 1px solid #151515;
 
-        background: #FFC8C8;
+        background: #111;
 
         height: 45px;
         line-height: 45px;
