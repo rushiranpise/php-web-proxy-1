@@ -9,7 +9,7 @@ require(__DIR__ . "/../language.php");
 
     #top_form {
         position: fixed;
-        bottom: 0;
+        top: 0;
         left: 0;
         width: 100%;
 
