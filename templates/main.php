@@ -33,11 +33,11 @@ require(__DIR__ . "/../config.php");
                 <br>
                 <div class="btn-group" role="group">
                     <a id="vikipedi" class="btn btn-secondary" href="#"><?php echo $lang["wikipedia"]; ?></a>
-                    <a id="google" class="btn btn-success" href="#">Google</a>
+                    <a id="google" class="btn btn-success" href="#">https://</a>
                 </div>
                 <p class="lead">
                 <form class="form-group" action="index.php" method="post">
-                    <input id="url" name="url" type="url" class="form-control" autocomplete="on" placeholder="http://"
+                    <input id="url" name="url" type="url" class="form-control" autocomplete="on" placeholder="Enter Url"
                            autofocus required/>
                     <br>
                     <input class="btn btn-primary btn-lg" type="submit" value="<?php echo $lang["go"]; ?>"/>
@@ -64,10 +64,10 @@ require(__DIR__ . "/../config.php");
             $('#url').val('https://facebook.com');
         });
         $('#google').click(function () {
-            $('#url').val('https://google.com');
+            $('#url').val('https://');
         });
         $('#vikipedi').click(function () {
-            $('#url').val('https://wikipedia.org');
+            $('#url').val('http://');
         });
     </script>
 </div>
